@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".AtualizarUsuario">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:background="@color/fundo2">
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/TextAtualizacao"
+            android:textColor="@color/textAtualizacao"
+            android:textSize="32sp"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:paddingBottom="12dp" />
+
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="120dp" />
+
+        <EditText
+            android:id="@+id/editIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade"
+            android:inputType="number"
+            android:maxLength="3"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura (cm)"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btAtualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/atualizar"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:paddingVertical="14dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/botaoAtualizacao"
+            android:textColor="@color/textAtualizacao"/>
+
+    </LinearLayout>
+</ScrollView>

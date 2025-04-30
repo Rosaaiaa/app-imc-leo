@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corbotao1">#A0481F</color>
+    <color name="fundo1">#FFB88D</color>
+    <color name="textCadastros">#7A2F02</color>
+    <color name="textBoasVindas">#90371B</color>
+    <color name="textAtualizacao">#BF7101</color>
+    <color name="botaoAtualizacao">#876026</color>
+    <color name="fundo2">#EDBF6B</color>
+    <color name="fundo3">#7598DE</color>
+    <color name="botaoCadastro">#2B4A80</color>
+    <color name="textCadastro">#021643</color>
+    <color name="black">#000000</color>
+    <color name="fundoV">#F87224</color>
+</resources>
