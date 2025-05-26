@@ -49,6 +49,11 @@ class MainActivity : AppCompatActivity() {
             val navegarTelaCadastro = Intent(this, CadastroUsuarios::class.java)
             startActivity(navegarTelaCadastro)
         }
+        binding.btnVoltarIMC.setOnClickListener {
+            finish() // Fecha essa tela e retorna para a PaginaInicial
+
+
+        }
 
     }
 

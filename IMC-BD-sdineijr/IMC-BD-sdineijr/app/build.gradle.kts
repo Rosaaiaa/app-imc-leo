@@ -49,9 +49,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.circleimageview)
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
-   implementation(libs.androidx.room.runtime)
-   ksp(libs.androidx.room.compiler)
-   implementation(libs.androidx.room.ktx)
 
 }

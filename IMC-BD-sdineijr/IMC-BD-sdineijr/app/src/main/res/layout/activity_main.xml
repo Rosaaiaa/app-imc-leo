@@ -53,6 +53,17 @@
             android:textAllCaps="true"
             android:paddingVertical="12dp" />
 
+        <Button
+            android:id="@+id/btnVoltarIMC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tela de boas-vindas"
+            android:backgroundTint="@color/corbotao1"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:paddingVertical="12dp"/>
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -71,6 +82,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="32dp" />
+
+
+
 
     </LinearLayout>
 </ScrollView>

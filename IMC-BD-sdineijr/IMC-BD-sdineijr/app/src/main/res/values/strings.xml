@@ -14,4 +14,7 @@
     <string name="TextCadastros">Cadastros realizados:</string>
     <string name="TextAtualizacao">Atualização de Cadastro</string>
     <string name="TextCadastro">Cadastro de um Novo Usuário</string>
+    <string name="boas_vindas">Bem vindo ao app para definir seu status acadêmico!</string>
+    <string name="orientacao">Por favor, clique no botão abaixo para prosseguir</string>
+    <string name="notaAlunoView">Insira a nota do Aluno:</string>
 </resources>
